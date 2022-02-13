@@ -11,7 +11,7 @@ def options(choice_letter):
 
     letter = choice(choice_letter).lower()
 
-    print(f"Вы загодали букву {letter}")
+    print(f"Вы загадали букву {letter}")
 
     return {"flag":False,"letter": letter}
 
@@ -46,7 +46,7 @@ while flag:
             continue
         else:
             letter = list(letter)[0].lower()
-            print(f"Вы загодали букву {letter}")
+            print(f"Вы загадали букву {letter}")
             break
 
 input_letters = input()
